@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du Pendu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Jeu du Pendu</h1>
+        
+        <div id="hangman-display">Vies restantes : 7</div>
+        <div class="input-container">
+            <svg id="pendu-svg" width="300" height="200"></svg>
+            <br>
+            <div id="word-display">_____</div>
+            <input type="text" id="input-lettre" maxlength="1" autofocus>
+            <button id="btn-essayer">Essayer</button>
+            <button id="btn-rejouer">Rejouer</button>
+        </div>
+        <div id="message"></div>
+        <div id="score">Score : 0</div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
